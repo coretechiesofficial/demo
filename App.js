@@ -8,10 +8,11 @@ class App extends Component {
     let is_supported = await NfcManager.isSupported()
     console.log('anss', is_supported)
     if (is_supported) {
+     
       NfcManager.start();
       NfcManager.setEventListener(NfcEvents.DiscoverTag, tag => {
         console.log('tag', tag);
-        NfcManager.setAlertMessageIOS('I got your tag!');
+        //NfcManager.setAlertMessageIOS('I got your tag!');
         NfcManager.unregisterTagEvent().catch(() => 0);
       });
     }
@@ -28,6 +29,7 @@ class App extends Component {
   }
 
   _test = async () => {
+   
     try {
       await NfcManager.registerTagEvent();
     } catch (ex) {

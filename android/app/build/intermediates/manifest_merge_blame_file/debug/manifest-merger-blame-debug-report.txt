@@ -1,0 +1,78 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.nfcdemo"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/debug/AndroidManifest.xml:5:22-75
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:4:22-64
+13    <uses-permission android:name="android.permission.NFC" />
+13-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:5:5-62
+13-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:5:22-59
+14    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+14-->[com.facebook.flipper:flipper:0.75.1] /Users/coretechies/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:5-76
+14-->[com.facebook.flipper:flipper:0.75.1] /Users/coretechies/.gradle/caches/transforms-2/files-2.1/a8f6015f96666ab8d93bfe5b64998bc8/jetified-flipper-0.75.1/AndroidManifest.xml:16:22-73
+15
+16    <uses-feature
+16-->[:react-native-nfc-manager] /Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/node_modules/react-native-nfc-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:11:5-13:36
+17        android:name="android.hardware.nfc"
+17-->[:react-native-nfc-manager] /Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/node_modules/react-native-nfc-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:12:9-44
+18        android:required="false" />
+18-->[:react-native-nfc-manager] /Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/node_modules/react-native-nfc-manager/android/build/intermediates/library_manifest/debug/AndroidManifest.xml:13:9-33
+19
+20    <application
+20-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:7:5-25:19
+21        android:name="com.nfcdemo.MainApplication"
+21-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:8:7-38
+22        android:allowBackup="false"
+22-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:12:7-34
+23        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+23-->[androidx.core:core:1.1.0] /Users/coretechies/.gradle/caches/transforms-2/files-2.1/d67cd79abd1ca209502f51c69d23182b/core-1.1.0/AndroidManifest.xml:24:18-86
+24        android:debuggable="true"
+25        android:icon="@mipmap/ic_launcher"
+25-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:10:7-41
+26        android:label="@string/app_name"
+26-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:9:7-39
+27        android:roundIcon="@mipmap/ic_launcher_round"
+27-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:11:7-52
+28        android:theme="@style/AppTheme"
+28-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:13:7-38
+29        android:usesCleartextTraffic="true" >
+29-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/debug/AndroidManifest.xml:8:9-44
+30        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+30-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/debug/AndroidManifest.xml:11:9-86
+30-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/debug/AndroidManifest.xml:11:19-83
+31        <activity
+31-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:14:7-24:18
+32            android:name="com.nfcdemo.MainActivity"
+32-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:15:9-37
+33            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+33-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:17:9-86
+34            android:label="@string/app_name"
+34-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:16:9-41
+35            android:launchMode="singleTask"
+35-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:18:9-40
+36            android:windowSoftInputMode="adjustResize" >
+36-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:19:9-51
+37            <intent-filter>
+37-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:20:9-23:25
+38                <action android:name="android.intent.action.MAIN" />
+38-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:21:13-65
+38-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:21:21-62
+39
+40                <category android:name="android.intent.category.LAUNCHER" />
+40-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:22:13-73
+40-->/Volumes/CTIPL/CT_INDIA/ReactNative/NfcDemo/demo/android/app/src/main/AndroidManifest.xml:22:23-70
+41            </intent-filter>
+42        </activity>
+43    </application>
+44
+45</manifest>

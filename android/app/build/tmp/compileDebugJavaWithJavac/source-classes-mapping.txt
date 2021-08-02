@@ -1,0 +1,14 @@
+com/nfcdemo/ReactNativeFlipper.java
+ com.nfcdemo.ReactNativeFlipper
+ com.nfcdemo.ReactNativeFlipper$1
+ com.nfcdemo.ReactNativeFlipper$2
+ com.nfcdemo.ReactNativeFlipper$2$1
+com/nfcdemo/MainApplication.java
+ com.nfcdemo.MainApplication
+ com.nfcdemo.MainApplication$1
+com/nfcdemo/MainActivity.java
+ com.nfcdemo.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList
+com/nfcdemo/BuildConfig.java
+ com.nfcdemo.BuildConfig

@@ -12,6 +12,8 @@ target 'NfcDemo' do
     :hermes_enabled => false
   )
 
+  pod 'react-native-nfc-manager', :path => '../node_modules/react-native-nfc-manager'
+
   target 'NfcDemoTests' do
     inherit! :complete
     # Pods for testing
