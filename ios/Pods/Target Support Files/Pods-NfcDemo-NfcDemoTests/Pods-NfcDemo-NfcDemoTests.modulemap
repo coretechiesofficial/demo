@@ -1,0 +1,6 @@
+module Pods_NfcDemo_NfcDemoTests {
+  umbrella header "Pods-NfcDemo-NfcDemoTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
